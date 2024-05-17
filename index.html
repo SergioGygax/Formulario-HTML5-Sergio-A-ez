@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container my-4 border solid" style="padding: 1px;">
+        <div class="text-bg-light p-3 w-2">
+            <h1>Payment for Example</h1>
+        </div>
+        <div class="p-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2 my-3 mx-3">
+            Some fields are missing
+        </div>
+        <div>
+            <div class="d-flex align-items-center mx-3">
+                <div class="mb-3 col-5">
+                    <label for="exampleFormControlInput1" class="form-label">Card #</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXX-XXXX">
+                </div>
+                <div class="mb-3 col-2 mx-4">
+                    <label for="exampleFormControlInput1" class="form-label">CVC #</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="000">
+                </div>
+                <div class="mb-3 col-4 mx-4">
+                    <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                    <i class="fa-solid fa-euro-sign"></i>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+            </div>
+            <div class="d-flex col-12 mx-3">
+                <div class="d-inline col-6">
+                    <div class="mb-3 col-12">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-3 col-12">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-3 col-6 space-between">
+                        <label for="exampleFormControlInput1" class="form-label">We accept:</label>
+                        <div class=" d-flex p-2 bg-secondary rounded-3 my-3">
+                            <div class="form-check mx-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                </label>
+                            </div>
+                            <div class="form-check mx-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <i class="fa-brands fa-cc-mastercard"></i>
+                                </label>
+                            </div>
+                            <div class="form-check mx-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <i class="fa-brands fa-cc-amex"></i>
+                                </label>
+                            </div>
+                            <div class="form-check mx-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <i class="fas fa-landmark"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-inline col-5 mx-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="col-12 d-flex mb-3 ">
+                        <div class="col-5 ">
+                            <label for="exampleFormControlInput1" class="form-label">State</label>
+                            <select class="form-select text-secundary--light-emphasis"
+                                aria-label="Default select example">
+                                <option selected>Pick a state</option>
+                                <option value="1">Alicante</option>
+                                <option value="2">Barcelona</option>
+                                <option value="3">Madrid</option>
+                                <option value="4">Valencia</option>
+                                <option value="5">Zaragoza</option>
+                            </select>
+                        </div>
+                        <div class="col-5 mx-5">
+                            <label for="exampleFormControlInput1" class="form-label">Postal Code</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+
+                    </div>
+                    <div class="mb-3 col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="emailHelp" class="form-text">Add any notes here.</div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+        <div>
+            <div class="text-bg-light p-3 d-flex justify-content-end">
+                <input class="btn btn-secondary" type="submit" value="Cancel">
+                <input class="btn btn-primary" type="button" value="Send">
+                
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9fc25e522a.js" crossorigin="anonymous"></script>
+
+</html>
